@@ -50,15 +50,8 @@
     padding: 50px;
 }
 
+
 /* Bio container */
-
-
-#bio-image {
-    width: 175px;
-    height: 175px;
-    border-radius: 50%;
-    margin-bottom: 25px;
-}
 
 #bio-container h2 {
     margin-bottom: 25px;
@@ -72,6 +65,13 @@
     font-weight: bold;
 }
 
+#bio-image {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
 #social-container {
     display: flex;
     justify-content: center;
@@ -83,7 +83,7 @@
 
 #social-container li {
     flex: 1 1 0;
-    max-width:  60px;
+    max-width: 60px;
 }
 
 #social-container li a {
@@ -96,18 +96,18 @@
     justify-content: center;
 }
 
-#email-container a ion-icon,
+#email-container ion-icon,
 #email-container a {
     flex: 1 1 0;
 }
 
 #email-container a {
-    color: var(--main-color);
+    color: var(--main-text-color);
     text-decoration: none;
     max-width: 225px; 
 }
 
-#email-container a ion-icon {
+#email-container ion-icon {
     color: var(--main-color);
     font-size: 20px;
     margin-right: 5px;
@@ -128,7 +128,7 @@
 }
 
 #description {
-    font-size: 75px;
+    font-size: 75%;
     margin-bottom: 10px;
 }
 
@@ -151,12 +151,15 @@
 #btn-projects ion-icon,
 #btn-projects span {
     flex: 1 1 0;
-    display: flex;
 }
 
 #btn-projects ion-icon {
     font-size: 20px;
     max-width: 20px;
+}
+
+#btn-projects:hover {
+    background-color: transparent;
 }
 
 #skills-section-title {
@@ -210,11 +213,11 @@
 }
 
 #bio-container p {
-    max-width: 60px;
+    max-width: 60%;
     margin: 10px auto;
 }
 
-#abpout-container {
+#about-container {
     text-align: center;
     padding: 30px;
 }
@@ -234,11 +237,6 @@
     max-width: 100%;
     margin-bottom: 40px;
     text-align: left;
-}
-
-.skills-box i {
-    margin: 0 auto;
-    display: block;
 }
 
 .skills-box i {

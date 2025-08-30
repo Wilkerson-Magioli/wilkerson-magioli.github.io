@@ -264,5 +264,12 @@
   padding-top: 2px;
 }
 
+#descriptions-idiomas {
+  list-style-position: inside;  /* Deixa os pontinhos para dentro */
+  text-align: left;             /* Alinha o texto da lista à esquerda */           /* Recuo dos itens */
+  line-height: 25px;
+  margin-left: 0;
+  padding-top: 2px;
+
 }
 

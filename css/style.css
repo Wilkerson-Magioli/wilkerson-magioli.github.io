@@ -179,7 +179,6 @@
     flex: 1 1 33%;
     max-width: 33%;
     margin-bottom: 35px;
-    padding: auto;
 }
 
 .skills-title {
@@ -260,6 +259,7 @@
 
 .skills-box i {
     font-size: 60px;
+    padding: auto;
 }
 
 #descriptions-certificados {

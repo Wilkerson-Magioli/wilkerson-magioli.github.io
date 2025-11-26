@@ -211,6 +211,13 @@
     margin-bottom: 10px;
     line-height: 25px;
 }
+#certificação-AWS {
+    width: 60px;
+    height: auto;
+    display: block;
+    margin: 5px 0;
+}
+
 
 /* mobile styles */
 
